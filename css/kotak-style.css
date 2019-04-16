@@ -149,6 +149,10 @@ button {
     color: #fafafa;
 }
 
+.tc-ter-15 {
+    color: #eeeeee;
+}
+
 .tc-ter-2 {
     color: #bfbfbf;
 }
@@ -239,6 +243,10 @@ button {
 
 /* tertiary colors */
 .bg-ter-1 {
+    background-color: #eeeeee;
+}
+
+.bg-ter-15 {
     background-color: #eeeeee;
 }
 
