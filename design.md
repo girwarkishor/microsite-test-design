@@ -14,7 +14,7 @@ Use of color should be with a purpose and should be supported with a rational. A
 
 > "White space is to be regarded as an active element, not a passive background."
 >
-> - Jan Tschichold
+> by Jan Tschichold
 
 ##### Colors should drive attention
 
