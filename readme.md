@@ -11,21 +11,25 @@ Go through these hands on guides which are written keeping the Business team, De
 ### Content Guide
 
 Learn how to use languge to create a more relevant user experience.
+
 [View content guidelines](/content.html)
 
 ### Design Guide
 
 Understand how we have structured visual elements to create richer interfaces.
+
 [View design guidelines](/design.html)
 
 ### Components Guide
 
 Reusable components as ready building blocks are available to expedite product creation.
+
 [View component library](/components.html)
 
 ### Patterns Guide
 
 See how pieces come together to form a whole
+
 [View patterns](/patterns.html)
 
 ---
