@@ -1,49 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no""> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="viewport-fit=cover, width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0" />
 
     <!-- webapp code -->
     <!-- <link rel="manifest" href="manifest.json" /> -->
-    <meta
-      name="description"
-      content="This is a design system that unifies the design process and style across all Kotak Securities websites"
-    />
-    <meta
-      name="keywords"
-      content="Design, system, design system, kotak securities, kotak bank"
-    />
+    <meta name="description" content="This is a design system that unifies the design process and style across all Kotak Securities websites" />
+    <meta name="keywords" content="Design, system, design system, kotak securities, kotak bank" />
     <meta name="robots" content="index/follow" />
 
     <link rel="apple-touch-startup-image" href="img/icon.png" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-    <meta itemprop="name" content="A Design System" />
-    <meta
-      itemprop="description"
-      content="This is a design system that unifies the design process and style across all Kotak Securities websites"
-    />
-    <meta
-      itemprop="image"
-      content="http://staging.alokshenoy.com/Kotak/Design-System/img/logo-icon.png"
-    />
+    <meta itemprop="name" content="The Kotak Securities Design System" />
+    <meta itemprop="description" content="This is the design system that unifies the design process and style across all Kotak Securities websites" />
+    <meta itemprop="image" content="http://staging.alokshenoy.com/Kotak/Design-System/img/logo-icon.png" />
     <meta property="og:title" content="The Design System" />
-    <meta
-      property="og:image"
-      content="http://staging.alokshenoy.com/Kotak/Design-System/img/logo-icon.png"
-    />
-    <meta
-      property="og:description"
-      content="This is a design system that unifies the design process and style across all Kotak Securities websites"
-    />
+    <meta property="og:image" content="http://staging.alokshenoy.com/Kotak/Design-System/img/logo-icon.png" />
+    <meta property="og:description" content="This is a design system that unifies the design process and style across all Kotak Securities websites" />
     <link rel="icon" href="img/icon.png" type="image/png" />
     <link rel="shortcut icon" href="favicon.ico" />
     <meta name="theme-color" content="#fff" />
@@ -57,41 +37,217 @@
     <link rel="apple-touch-icon" sizes="152x152" href="img/icon-152.png" />
 
     <!-- font-aweseome CSS -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
 
     <!-- Animate CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
-    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" /> -->
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" />
+
     <!-- Roboto Font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
+
+    <!-- Kotak Stylesheet -->
+    <link rel="stylesheet" href="css/kotak-style.css">
+
+    <!-- Design system stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
 
     <title>The Design System for Kotak Securities</title>
+</head>
 
-    <!-- <link rel="stylesheet" href="./sass/main.scss"> -->
-  </head>
+<body>
 
-  <body>
-    <script src="./js/index.js"></script>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xl-2 col-lg-3"></div>
+    <nav>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Navigation -->
+                <!-- only mobile menu -->
+                <div class="col-xs-12 mobile navigation--top bg-white pad-zero" style="box-shadow: 5px 5px 10px #e5e5e5;transition: box-shadow 0.1s ease-in-out;">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-9 col-xm-10 pad-zero">
+                                <a href="index.html">
+                                    <img class="text-right navigation--mobile--logo f-left img-responsive" src="img/logo.svg" alt="logo" onerror="this.src='img/logo.png'">
+                                </a>
+                            </div>
+
+                            <!-- <div class="col-xs-2 col-xm-1 navigation--mobile--menu text-right">
+                  <button type="button" class="bg-white disp-tab height100 pad-t-xxs tc-sc-4 center-block"><i class="fa fa-search disp-tab-cell"></i></button>
+                </div> -->
+
+                            <div class="col-xs-3 col-xm-2 navigation--mobile--menu text-center pad-l-zero">
+                                <div class="disp-tab width100">
+                                    <div class="disp-tab-cell">
+                                        <button type="button" aria-label="search button" class="bg-white disp-tab height100 pad-t-xxs tc-sc-4 center-block"><i class="fa fa-search disp-tab-cell"></i></button>
+                                    </div>
+
+                                    <div class="disp-tab-cell">
+                                        <button aria-label="navigation--mobile--menu-button" type="button" class="navigation--mobile--menu-button" onclick="mobileMenu()">
+                                            <svg class="visible-inline pad-r-xs text-uppercase fw-light ls-medium tc-sc-4 animated fadeIn" id="hamburger" width="100%" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+                                                <path d="M1.2,4.08l7.2,0" class="hamburger-top"></path>
+                                                <path d="M1.2,5.886l7.2,0" class="hamburger-bottom"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-xs-11 affix bg-ter-1 vh100 nav-toggle animated pad-mobile-lr-zero">
+                    <!-- js inserts navigation here -->
+                    <div class="navigation">
+                        <div class="pad-t-sm pad-b-xs">
+                            <a href="course-page.html">
+                                <button aria-label="learning" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
+                                    <p class="fw-med mar-zero tc-sc-4">Overview</p>
+                                </button>
+                            </a>
+                        </div>
+                        <hr class="mar-zero">
+                        <div class="pad-t-xs pad-b-xs">
+                            <a href="course-bank-filter.html">
+                                <button aria-label="courses" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
+                                    <p class="fw-med mar-zero tc-sc-4">Content</p>
+                                </button>
+                            </a>
+                        </div>
+                        <hr class="mar-zero">
+                        <div class="pad-t-xs pad-b-xs">
+                            <a href="knowledge-bank-filter.html">
+                                <button aria-label="modules" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
+                                    <p class="fw-med mar-zero tc-sc-4">Design</p>
+                                </button>
+                            </a>
+                        </div>
+                        <hr class="mar-zero">
+                        <div class="pad-t-xs pad-b-xs">
+                            <a href="articles.html">
+                                <button aria-label="articles" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
+                                    <p class="fw-med mar-zero tc-sc-4">Components</p>
+                                </button>
+                            </a>
+                        </div>
+                        <hr class="mar-zero">
+                        <div class="pad-t-xs pad-b-xs">
+                            <a href="workshops.html">
+                                <button aria-label="workshops" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
+                                    <p class="fw-med mar-zero tc-sc-4">Patterns</p>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- only desktop menu -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-offset-0 col-lg-12 col-xs-12 col-xm-2 desktop bg-white pad-zero navigation--top" style="box-shadow: 5px 5px 10px #e5e5e5;transition: box-shadow 0.1s ease-in-out;">
+                    <div class="container-fluid pad-t-xxs pad-b-xxs">
+                        <div class="row">
+                            <div class="col-xl-offset-0 col-xl-2 col-lg-offset-0 col-lg-2 col-xm-offset-0 col-xm-10 col-sm-offset-0 col-sm-3 pad-lr-zero">
+                                <a href="index.html">
+                                    <img class="text-right navigation--mobile--logo f-left img-responsive width100" src="img/logo.svg" alt="logo" onerror="this.src='img/logo.png'">
+                                </a>
+                            </div>
+                            <div class="col-xl-offset-2 col-xl-4 col-lg-offset-1 col-lg-4 col-sm-offset-0 col-sm-3">
+                                <div class="width100 nav-searchbar">
+                                    <span class="form--placeholder invisible animated">Search</span>
+                                    <input type="search" aria-label="Search" alt="Search" placeholder="Search" class="form--reset tc-sc-4 text-capitalize" pattern="^[A-Za-z\s]+$" data-error="Please enter A-Z alphabets only" title="Please enter A-Z alphabets only" required="required" oninvalid="this.setCustomValidity('Please enter A-Z alphabets only');" oninput="setCustomValidity('');" id="search-bar">
+                                    <span class="form--post-icon">
+                                        <i class="fas fa-search tc-ter-2"></i>
+                                    </span>
+                                    <!-- <span class="tc-pr-4 animated ts-small hide">
+                                        <i class="fa fa-exclamation-circle"></i>
+                                        Please suggest a valid search
+                                    </span> -->
+                                </div>
+                            </div>
+                            <div class="col-xl-offset-0 col-xl-4 col-lg-offset-0 col-lg-5 col-sm-offset-0 col-sm-6 text-right pad-t-xxs pad-b-xxs">
+                                <div class="disp-tab width100 height100 navigation--desktop">
+                                    <div class="disp-tab-cell">
+                                        <a href="index.html">
+                                            <button aria-label="learning" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
+                                                <p class="fw-med mar-zero tc-sc-4">Overview</p>
+                                            </button>
+                                        </a>
+                                        <a href="course-bank-filter.html">
+                                            <button aria-label="courses" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
+                                                <p class="fw-med mar-zero tc-sc-4">Content</p>
+                                            </button>
+                                        </a>
+                                        <a href="knowledge-bank-filter.html">
+                                            <button aria-label="modules" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
+                                                <p class="fw-med mar-zero tc-sc-4">Design</p>
+                                            </button>
+                                        </a>
+                                        <a href="articles.html">
+                                            <button aria-label="articles" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
+                                                <p class="fw-med mar-zero tc-sc-4">Components</p>
+                                            </button>
+                                        </a>
+                                        <a href="workshops.html">
+                                            <button aria-label="workshops" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
+                                                <p class="fw-med mar-zero tc-sc-4">Patterns</p>
+                                            </button>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 page1--fold1 pad-t-lg pad-b-lg">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-offset-2 col-sm-8">
+                                <h1 class=" text-center pad-l-xs pad-r-xs pad-t-xs tc-ter-4">
+                                    The Design System
+                                </h1>
+                                <p class=" text-center pad-l-xs pad-r-xs tc-ter-4 mar-b-xs ">
+                                    Our design system helps us work together to build a
+                                    great experience. <br>Check out these practical guides to help you understand how to design for&nbsp;Kotak
+                                    Securities’ websites.
+                                </p>
+                                <a href="#get-started">
+                                    <button class="btn-cta fw-regular center-block mar-t-xs">Get Started</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="inner-page">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 bg-ter-1" style="height: 80vh;">
+
+          </div>
+          <div class="col-sm-9 bg-ter-2" style="height: 80vh;">
+
+          </div>
+        </div>
       </div>
-    </div>
-  </body>
+    </section> -->
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
 </html>

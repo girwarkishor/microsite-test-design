@@ -1,0 +1,99 @@
+/* .link--cta::before {
+    content: "";
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 2px;
+    bottom: .6em;
+    left: 15px;
+    background-color: #0B4D88;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.link--cta:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(.30);
+    transform: scaleX(.30);
+} */
+
+/* .card--panel-link-cta:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(.85);
+    transform: scaleX(.85);
+} */
+
+/* .btn-link-cta:hover {
+    border-bottom: 2px solid #0B4D88;
+    border-left: 0px;
+    border-right: 0px;
+    transform: scaleX(1);
+ } */
+
+/* .card--panel-link-cta:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(.85);
+    transform: scaleX(.85);
+} */
+
+/* .card-featured--cta-bottom {
+    position: absolute;
+    bottom: 0px;
+    right: 1vw;
+    padding-right: 1vw;
+    width: calc(100% - 2vw);
+} */
+@media screen and (min-width: 1442px) {
+
+    /* .pull-lg-left {
+        float: left;
+    }
+    .pull-lg-right {
+        float: right;
+    } */
+    /* .link--cta:hover::before {
+        visibility: visible;
+        -webkit-transform: scaleX(.55);
+        transform: scaleX(.55);
+    }
+
+    .card--panel-link-cta:hover::before {
+        visibility: visible;
+        -webkit-transform: scaleX(.85);
+        transform: scaleX(.85);
+    } */
+}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 1280px) {}
+
+/*  and (orientation: landscape)  */
+@media screen and (max-width: 1025px) {}
+
+@media screen and (max-width: 960px) {}
+
+@media screen and (max-width: 768px) {
+    .sort-and-filters {
+        position: fixed;
+        /* position: -webkit-sticky; */
+        top: auto;
+        bottom: 2em;
+        /* padding-top: 1.4em; */
+        /* margin-bottom: 1em; */
+        z-index: 5;
+        max-width: 6em;
+        /* box-shadow: 0px 2px 2px #bfbfbf; */
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width:960px) and (orientation:landscape) {}
+
+@media screen and (max-width:992px) and (orientation:landscape) {}
+
+@media screen and (max-width:769px) and (orientation:landscape) {}
