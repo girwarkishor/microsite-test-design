@@ -12,25 +12,25 @@ Go through these hands on guides which are written keeping the Business team, De
 
 Learn how to use languge to create a more relevant user experience.
 
-[View content guidelines](/content.md)
+[View content guidelines](content.md)
 
 ### Design Guide
 
 Understand how we have structured visual elements to create richer interfaces.
 
-[View design guidelines](/design.md)
+[View design guidelines](design.md)
 
 ### Components Guide
 
 Reusable components as ready building blocks are available to expedite product creation.
 
-[View component library](/components.md)
+[View component library](components.md)
 
 ### Patterns Guide
 
 See how pieces come together to form a whole
 
-[View patterns](/patterns.md)
+[View patterns](patterns.md)
 
 ---
 
@@ -46,7 +46,7 @@ Browse the source code and the latest release notes.
 
 Craft great products with our Sketch component library.
 
-[View more resources](/resources.md)
+[View more resources](resources.md)
 
 ---
 
