@@ -50,6 +50,6 @@ Craft great products with our Sketch component library.
 
 ---
 
-<!-- ## Content (to be done with Sandhya) -->
+<!-- ## Content (to be done with Sandhya)
 
----
+--- -->
