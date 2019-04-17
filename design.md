@@ -68,7 +68,7 @@ The average customer of Kotak Securities is 34 years old. This means a decent co
 
 ---
 
-### Icons
+### Icons & Imagery
 
 #### Icon principles
 

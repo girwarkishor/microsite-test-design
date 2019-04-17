@@ -38,13 +38,26 @@ See how pieces come together to form a whole
 
 Downloads, links to white papers, guides & tools to help your team and you learn and implement products.
 
-### HTML Components
+### For Developers
 
-Browse the source code and the latest release notes.
+#### CSS Architechture
 
-### UI Kit
+Understand how the stylesheet has been created based on principles from OOCSS.
+
+[View details](for-developers.md)
+
+#### Code guidelines
+
+#### Performance guidelines
+
+### For Designers
+
+#### UI Kit
 
 Craft great products with our Sketch component library.
+[View details](for-designers.md)
+
+###
 
 [View more resources](resources.md)
 
