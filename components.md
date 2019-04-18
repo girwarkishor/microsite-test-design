@@ -1,5 +1,7 @@
 ## Components
 
+Following Atomic Design principles, we created our own - Atoms, Molecules, Organisms so designers can make Templates & Pages
+
 ### Get Started
 
 #### Getting Started
