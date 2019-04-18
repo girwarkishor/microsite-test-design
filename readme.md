@@ -26,14 +26,6 @@ Reusable components as ready building blocks are available to expedite product c
 
 [View component library](components.md)
 
-### Patterns Guide
-
-See how pieces come together to form a whole
-
-[View patterns](patterns.md)
-
----
-
 ## Resources
 
 Downloads, links to white papers, guides & tools to help your team and you learn and implement products.
