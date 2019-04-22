@@ -4,7 +4,13 @@ We used the Atomic Design principles and created reusable Atoms, Molecules, Orga
 
 ### Get Started
 
+Using principles laid down in Material design by Google, Atomic design by Brad Frost and other leaders in the field of design standardisation, we have created a version that takes our offline design style to our digital products.
+
 #### Getting Started
+
+Designers can import the design library as editable files or as a library in Sketch & Adobe XD. Designs are to be made in 1440px X 780px (the standard MacBook Air resolution minus the height of menu & address bar) or 1440px X 900px (the standard MacBook Air).
+
+Developers can visit individual components and grab the component code and keep referring this like a handbook. However, we insist you go through this entire section so that you know the layouts, components, styles etc that are available.
 
 #### Using Components
 

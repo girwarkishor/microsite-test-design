@@ -1,0 +1,148 @@
+<nav>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Navigation -->
+            <!-- only mobile menu -->
+            <div class="col-xs-12 mobile navigation--top bg-white pad-zero" style="box-shadow: 5px 5px 10px #e5e5e5;transition: box-shadow 0.1s ease-in-out;">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-9 col-xm-10 pad-zero">
+                            <a onclick="injectPage('home-page.html','content-holder');">
+                                <img class="text-right navigation--mobile--logo f-left img-responsive" src="img/logo.svg" alt="logo" onerror="this.src='img/logo.png'" />
+                            </a>
+                        </div>
+
+                        <!-- <div class="col-xs-2 col-xm-1 navigation--mobile--menu text-right">
+                  <button type="button" class="bg-white disp-tab height100 pad-t-xxs tc-sc-4 center-block"><i class="fa fa-search disp-tab-cell"></i></button>
+                </div> -->
+
+                        <div class="col-xs-3 col-xm-2 navigation--mobile--menu text-center pad-l-zero">
+                            <div class="disp-tab width100">
+                                <div class="disp-tab-cell">
+                                    <button type="button" aria-label="search button" class="bg-white disp-tab height100 pad-t-xxs tc-sc-4 center-block">
+                                        <i class="fa fa-search disp-tab-cell"></i>
+                                    </button>
+                                </div>
+
+                                <div class="disp-tab-cell">
+                                    <button aria-label="navigation--mobile--menu-button" type="button" class="navigation--mobile--menu-button" onclick="mobileMenu()">
+                                        <svg class="visible-inline pad-r-xs text-uppercase fw-light ls-medium tc-sc-4 animated fadeIn" id="hamburger" width="100%" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+                                            <path d="M1.2,4.08l7.2,0" class="hamburger-top"></path>
+                                            <path d="M1.2,5.886l7.2,0" class="hamburger-bottom"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-xs-11 affix bg-ter-1 vh100 nav-toggle animated pad-mobile-lr-zero">
+                <!-- js inserts navigation here -->
+                <div class="navigation">
+                    <div class="pad-t-sm pad-b-xs">
+                        <a onclick="injectPage('overview-guide.html','content-holder');">
+                            <button aria-label="learning" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
+                                <p class="fw-med mar-zero tc-sc-4">Overview</p>
+                            </button>
+                        </a>
+                    </div>
+                    <hr class="mar-zero" />
+                    <div class="pad-t-xs pad-b-xs">
+                        <a onclick="injectPage('content-guide.html','content-holder');">
+                            <button aria-label="courses" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
+                                <p class="fw-med mar-zero tc-sc-4">Content</p>
+                            </button>
+                        </a>
+                    </div>
+                    <hr class="mar-zero" />
+                    <div class="pad-t-xs pad-b-xs">
+                        <a onclick="injectPage('design-guide.html','content-holder');">
+                            <button aria-label="modules" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
+                                <p class="fw-med mar-zero tc-sc-4">Design</p>
+                            </button>
+                        </a>
+                    </div>
+                    <hr class="mar-zero" />
+                    <div class="pad-t-xs pad-b-xs">
+                        <a onclick="injectPage('components-guide.html','content-holder');">
+                            <button aria-label="articles" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
+                                <p class="fw-med mar-zero tc-sc-4">Components</p>
+                            </button>
+                        </a>
+                    </div>
+                    <!-- <hr class="mar-zero" /> -->
+                    <!-- <div class="pad-t-xs pad-b-xs">
+                        <a href="workshops.html">
+                            <button aria-label="workshops" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
+                                <p class="fw-med mar-zero tc-sc-4">Patterns</p>
+                            </button>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- only desktop menu -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-offset-0 col-lg-12 col-xs-12 col-xm-2 desktop bg-white pad-zero navigation--top" style="box-shadow: 5px 5px 10px #e5e5e5;transition: box-shadow 0.1s ease-in-out;">
+                <div class="container-fluid pad-t-xxs pad-b-xxs">
+                    <div class="row">
+                        <div class="col-xl-offset-0 col-xl-2 col-lg-offset-0 col-lg-2 col-xm-offset-0 col-xm-10 col-sm-offset-0 col-sm-3 pad-lr-zero">
+                            <a onclick="injectPage('home-page.html','content-holder');">
+                                <img class="text-right navigation--mobile--logo f-left img-responsive width100" src="img/logo.svg" alt="logo" onerror="this.src='img/logo.png'" />
+                            </a>
+                        </div>
+                        <div class="col-xl-offset-2 col-xl-4 col-lg-offset-1 col-lg-4 col-sm-offset-0 col-sm-3">
+                            <div class="width100 nav-searchbar">
+                                <span class="form--placeholder invisible animated">Search</span>
+                                <input type="search" aria-label="Search" alt="Search" placeholder="Search" class="form--reset tc-sc-4 text-capitalize" pattern="^[A-Za-z\s]+$" data-error="Please enter A-Z alphabets only" title="Please enter A-Z alphabets only" required="required" oninvalid="this.setCustomValidity('Please enter A-Z alphabets only');" oninput="setCustomValidity('');" id="search-bar" />
+                                <span class="form--post-icon">
+                                    <i class="fas fa-search tc-ter-2"></i>
+                                </span>
+                                <!-- <span class="tc-pr-4 animated ts-small hide">
+                                        <i class="fa fa-exclamation-circle"></i>
+                                        Please suggest a valid search
+                                    </span> -->
+                            </div>
+                        </div>
+                        <div class="col-xl-offset-0 col-xl-4 col-lg-offset-0 col-lg-5 col-sm-offset-0 col-sm-6 text-right pad-t-xxs pad-b-xxs">
+                            <div class="disp-tab width100 height100 navigation--desktop">
+                                <div class="disp-tab-cell">
+                                    <a onclick="injectPage('overview-guide.html','content-holder');">
+                                        <button aria-label="learning" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
+                                            <p class="fw-med mar-zero tc-sc-4">Overview</p>
+                                        </button>
+                                    </a>
+                                    <a onclick="injectPage('content-guide.html','content-holder');">
+                                        <button aria-label="courses" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
+                                            <p class="fw-med mar-zero tc-sc-4">Content</p>
+                                        </button>
+                                    </a>
+                                    <a onclick="injectPage('design-guide.html','content-holder');">
+                                        <button aria-label="modules" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
+                                            <p class="fw-med mar-zero tc-sc-4">Design</p>
+                                        </button>
+                                    </a>
+                                    <a onclick="injectPage('components-guide.html','content-holder');">
+                                        <button aria-label="articles" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
+                                            <p class="fw-med mar-zero tc-sc-4">Components</p>
+                                        </button>
+                                    </a>
+                                    <!-- <a href="workshops.html">
+                                        <button aria-label="workshops" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
+                                            <p class="fw-med mar-zero tc-sc-4">Patterns</p>
+                                        </button>
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1372,6 +1372,10 @@ button:focus,
     border-right: 1px solid #bfbfbf;
 }
 
+.br-left {
+    border-left: 1px solid #bfbfbf;
+}
+
 .card--fa {
     width: 2.8em;
 }
@@ -3088,7 +3092,9 @@ button:focus,
 
     .btn-link-cta,
     .btn-link-cta:visited {
-        padding: 0em;
+        /* padding-top: 0em; */
+        padding-top: 0em;
+        padding-bottom: 0.6em;
     }
 
     .btn-link-cta:hover,
