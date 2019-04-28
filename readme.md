@@ -12,19 +12,19 @@ Go through these hands on guides which are written keeping the Business team, De
 
 Learn how to use languge to create a more relevant user experience.
 
-[View content guidelines](content.md)
+[View content guidelines](./markdown/content.md)
 
 ### Design Guide
 
 Understand how we have structured visual elements to create richer interfaces.
 
-[View design guidelines](design.md)
+[View design guidelines](./markdown/design.md)
 
 ### Components Guide
 
 Reusable components as ready building blocks are available to expedite product creation.
 
-[View component library](components.md)
+[View component library](./markdown/components.md)
 
 ## Resources
 
@@ -36,7 +36,7 @@ Downloads, links to white papers, guides & tools to help your team and you learn
 
 Understand how the stylesheet has been created based on principles from OOCSS.
 
-[View details](for-developers.md)
+[View details](./markdown/for-developers.md)
 
 #### Code guidelines
 
@@ -47,11 +47,11 @@ Understand how the stylesheet has been created based on principles from OOCSS.
 #### UI Kit
 
 Craft great products with our Sketch component library.
-[View details](for-designers.md)
+[View details](./markdown/for-designers.md)
 
 ###
 
-[View more resources](resources.md)
+[View more resources](./markdown/resources.md)
 
 ---
 

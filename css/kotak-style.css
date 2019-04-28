@@ -2079,6 +2079,7 @@ button:focus,
     text-transform: uppercase;
     position: absolute;
     right: 1.4em;
+    top: 0.14em;
 }
 
 .mfp-close-btn-in .mfp-close {
