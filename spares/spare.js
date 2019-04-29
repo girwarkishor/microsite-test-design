@@ -1,5 +1,19 @@
 /* <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script> */
 
+
+$("a").on('click', function (event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    var hash = 'body';
+    console.log(hash)
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function () {
+      window.location.hash = hash;
+    });
+  };
+});
+
 // var state = {}
 
 /**

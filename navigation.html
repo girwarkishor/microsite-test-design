@@ -7,19 +7,19 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xs-9 col-xm-10 pad-zero">
-                            <a onclick="injectPage('home-page.html','content-holder');">
+                            <a onclick="router('index.html');">
                                 <img class="text-right navigation--mobile--logo f-left img-responsive" src="img/logo.svg" alt="logo" onerror="this.src='img/logo.png'" />
                             </a>
                         </div>
 
                         <!-- <div class="col-xs-2 col-xm-1 navigation--mobile--menu text-right">
-                  <button type="button" class="bg-white disp-tab height100 pad-t-xxs tc-sc-4 center-block"><i class="fa fa-search disp-tab-cell"></i></button>
-                </div> -->
+                              <button type="button" class="bg-white disp-tab height100 pad-t-xxs tc-sc-4 center-block"><i class="fa fa-search disp-tab-cell"></i></button>
+                            </div> -->
 
                         <div class="col-xs-3 col-xm-2 navigation--mobile--menu text-center pad-l-zero">
                             <div class="disp-tab width100">
                                 <div class="disp-tab-cell">
-                                    <button type="button" aria-label="search button" class="bg-white disp-tab height100 pad-t-xxs tc-sc-4 center-block">
+                                    <button type="button" disabled aria-label="search button" class="bg-white disp-tab height100 pad-t-xxs tc-white center-block">
                                         <i class="fa fa-search disp-tab-cell"></i>
                                     </button>
                                 </div>
@@ -43,7 +43,7 @@
                 <!-- js inserts navigation here -->
                 <div class="navigation">
                     <div class="pad-t-sm pad-b-xs">
-                        <a onclick="injectPage('overview-guide.html','content-holder');">
+                        <a onclick="router('overview-guide.html');">
                             <button aria-label="learning" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
                                 <p class="fw-med mar-zero tc-sc-4">Overview</p>
                             </button>
@@ -51,7 +51,7 @@
                     </div>
                     <hr class="mar-zero" />
                     <div class="pad-t-xs pad-b-xs">
-                        <a onclick="injectPage('content-guide.html','content-holder');">
+                        <a onclick="router('content-guide.html');">
                             <button aria-label="courses" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
                                 <p class="fw-med mar-zero tc-sc-4">Content</p>
                             </button>
@@ -59,7 +59,7 @@
                     </div>
                     <hr class="mar-zero" />
                     <div class="pad-t-xs pad-b-xs">
-                        <a onclick="injectPage('design-guide.html','content-holder');">
+                        <a onclick="router('design-guide.html');">
                             <button aria-label="modules" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
                                 <p class="fw-med mar-zero tc-sc-4">Design</p>
                             </button>
@@ -67,7 +67,7 @@
                     </div>
                     <hr class="mar-zero" />
                     <div class="pad-t-xs pad-b-xs">
-                        <a onclick="injectPage('components-guide.html','content-holder');">
+                        <a onclick="router('components-guide.html');">
                             <button aria-label="articles" class="fw-med btn-link-cta mar-l-xs mar-r-xs">
                                 <p class="fw-med mar-zero tc-sc-4">Components</p>
                             </button>
@@ -92,42 +92,42 @@
                 <div class="container-fluid pad-t-xxs pad-b-xxs">
                     <div class="row">
                         <div class="col-xl-offset-0 col-xl-2 col-lg-offset-0 col-lg-2 col-xm-offset-0 col-xm-10 col-sm-offset-0 col-sm-3 pad-lr-zero">
-                            <a onclick="injectPage('home-page.html','content-holder');">
+                            <a onclick="router('index.html');">
                                 <img class="text-right navigation--mobile--logo f-left img-responsive width100" src="img/logo.svg" alt="logo" onerror="this.src='img/logo.png'" />
                             </a>
                         </div>
                         <div class="col-xl-offset-2 col-xl-4 col-lg-offset-1 col-lg-4 col-sm-offset-0 col-sm-3">
-                            <div class="width100 nav-searchbar">
+                            <!-- <div class="width100 nav-searchbar">
                                 <span class="form--placeholder invisible animated">Search</span>
                                 <input type="search" aria-label="Search" alt="Search" placeholder="Search" class="form--reset tc-sc-4 text-capitalize" pattern="^[A-Za-z\s]+$" data-error="Please enter A-Z alphabets only" title="Please enter A-Z alphabets only" required="required" oninvalid="this.setCustomValidity('Please enter A-Z alphabets only');" oninput="setCustomValidity('');" id="search-bar" />
                                 <span class="form--post-icon">
                                     <i class="fas fa-search tc-ter-2"></i>
                                 </span>
-                                <!-- <span class="tc-pr-4 animated ts-small hide">
+                                <span class="tc-pr-4 animated ts-small hide">
                                         <i class="fa fa-exclamation-circle"></i>
                                         Please suggest a valid search
-                                    </span> -->
-                            </div>
+                                    </span>
+                            </div> -->
                         </div>
                         <div class="col-xl-offset-0 col-xl-4 col-lg-offset-0 col-lg-5 col-sm-offset-0 col-sm-6 text-right pad-t-xxs pad-b-xxs">
                             <div class="disp-tab width100 height100 navigation--desktop">
                                 <div class="disp-tab-cell">
-                                    <a onclick="injectPage('overview-guide.html','content-holder');">
+                                    <a onclick="router('overview.html');">
                                         <button aria-label="learning" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
                                             <p class="fw-med mar-zero tc-sc-4">Overview</p>
                                         </button>
                                     </a>
-                                    <a onclick="injectPage('content-guide.html','content-holder');">
+                                    <a onclick="router('content-guide.html');">
                                         <button aria-label="courses" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
                                             <p class="fw-med mar-zero tc-sc-4">Content</p>
                                         </button>
                                     </a>
-                                    <a onclick="injectPage('design-guide.html','content-holder');">
+                                    <a onclick="router('design-guide.html');">
                                         <button aria-label="modules" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
                                             <p class="fw-med mar-zero tc-sc-4">Design</p>
                                         </button>
                                     </a>
-                                    <a onclick="injectPage('components-guide.html','content-holder');">
+                                    <a onclick="router('components-guide.html');">
                                         <button aria-label="articles" class="fw-med btn-link-cta mar-l-xs mar-r-xs mar-t-xxs">
                                             <p class="fw-med mar-zero tc-sc-4">Components</p>
                                         </button>

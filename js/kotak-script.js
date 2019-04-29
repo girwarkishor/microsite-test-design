@@ -20,19 +20,21 @@ var backwardJump = 0;
  */
 function navigationShadow() {
   navBar = document.getElementsByClassName('navigation--top');
-  navHeightOnMobile = navBar[0].clientHeight;
-  navHeightOnDesktop = navBar[1].clientHeight;
+  if(navBar.length > 0){
+    navHeightOnMobile = navBar[0].clientHeight;
+    navHeightOnDesktop = navBar[1].clientHeight;
 
-  var navOffset = window.pageYOffset;
-  if (navHeightOnMobile != 0 || navHeightOnDesktop != 0) {
-    if (navOffset >= 20) {
-      navBar[0].setAttribute('style', shadowIn);
-      navBar[1].setAttribute('style', shadowIn);
-    } else {
-      navBar[0].setAttribute('style', shadowOut);
-      navBar[1].setAttribute('style', shadowOut);
+    var navOffset = window.pageYOffset;
+    if (navHeightOnMobile != 0 || navHeightOnDesktop != 0) {
+      if (navOffset >= 20) {
+        navBar[0].setAttribute('style', shadowIn);
+        navBar[1].setAttribute('style', shadowIn);
+      } else {
+        navBar[0].setAttribute('style', shadowOut);
+        navBar[1].setAttribute('style', shadowOut);
+      };
     };
-  };
+  }
 
   var applicableNavSize = largerOfTwo(navHeightOnMobile, navHeightOnDesktop) - 25;
   mainBody.setAttribute('style', 'padding-top:' + applicableNavSize + 'px;');
@@ -485,7 +487,7 @@ window.addEventListener('resize', function (e) {
   setTimeout(function () {
     navigationShadow()
     equalise()
-  }, 50)
+  }, 120)
 });
 
 window.addEventListener('focusin', function (e) {
