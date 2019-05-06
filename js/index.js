@@ -10,7 +10,8 @@ var endPoint = siteUrl.split('/');
 endPoint = endPoint[endPoint.length - 1]
 
 var payLoad = {};
-payLoad.pages = {};
+
+var priorPayLoad = {};
 
 var siteMap = {
     index: {
@@ -69,8 +70,10 @@ function getPage(pagePath, key) {
         if (request.status >= 200 && request.status < 400) {
             // Success!
             var resp = request.responseText;
-            payLoad.pages[key] = resp;
-            localStorage.setItem(key, resp)
+            payLoad[key] = resp;
+
+            localStorage.setItem('payLoad', JSON.stringify(payLoad));
+
         } else {
             // We reached our target server, but it returned an error
             console.log('there was an error');
@@ -87,12 +90,18 @@ function getPage(pagePath, key) {
 
 // setPage(pagePath, id)
 function setPage(pagePath, id, key) {
-    var append = localStorage.getItem(key);
+    if (Object.keys(payLoad).length === Object.keys(siteMap).length && key !== 'footer' && key !== 'navigation') {
+        priorPayLoad = JSON.parse(localStorage.getItem('payLoad'));
+    }
+
+    var append = priorPayLoad[key];
+
     document.getElementById(id).innerHTML = append;
+
 }
 
 /*
- * update(endPoint)
+ * update(pagePath)
  */
 function update(pagePath) {
 
@@ -105,6 +114,8 @@ function update(pagePath) {
 
     document.title = siteMap[identifier].title;
     window.location.href = baseUrl + '#/' + siteMap[identifier].url;
+
+    localStorage.setItem('activePage', siteMap[identifier].url);
 }
 
 /*
@@ -115,70 +126,72 @@ function router(pagePath) {
     var insertLocationId = 'content-holder';
 
     switch (pagePath) {
-        case siteMap.index.url:
-            {
-                console.log('yes that is index');
-                setPage('home-page-fragment.html', insertLocationId, 'home');
-                update(pagePath);
-                break;
-            }
-        case siteMap.overview.url:
-            {
-                console.log('yes that is overview');
-                setPage('guide-page-fragment.html', insertLocationId, 'guide');
-                update(pagePath);
-                break;
-            }
-        case siteMap.content.url:
-            {
-                console.log('yes that is content');
-                setPage('guide-page-fragment.html', insertLocationId, 'guide');
-                update(pagePath);
-                break;
-            }
-        case siteMap.design.url:
-            {
-                console.log('yes that is design');
-                setPage('guide-page-fragment.html', insertLocationId, 'guide');
-                update(pagePath);
-                break;
-            }
-        case siteMap.components.url:
-            {
-                console.log('yes that is components');
-                setPage('guide-page-fragment.html', insertLocationId, 'guide');
-                update(pagePath);
-                break;
-            }
-        default:
-            {
-                console.log('yes that is default');
-                setPage('home-page-fragment.html', insertLocationId, 'home');
-                update('index');
-                break;
-            }
+        case (siteMap.index.url): {
+            // console.log('yes that is index');
+            setPage('home-page-fragment.html', insertLocationId, 'home');
+            update(pagePath);
+            break;
+        }
+        case siteMap.overview.url: {
+            // console.log('yes that is overview');
+            setPage('guide-page-fragment.html', insertLocationId, 'guide');
+            setPage('overview.html', 'internal-content-holder', 'overview');
+            update(pagePath);
+            break;
+        }
+        case siteMap.content.url: {
+            // console.log('yes that is content');
+            setPage('guide-page-fragment.html', insertLocationId, 'guide');
+            update(pagePath);
+            break;
+        }
+        case siteMap.design.url: {
+            // console.log('yes that is design');
+            setPage('guide-page-fragment.html', insertLocationId, 'guide');
+            update(pagePath);
+            break;
+        }
+        case siteMap.components.url: {
+            // console.log('yes that is components');
+            setPage('guide-page-fragment.html', insertLocationId, 'guide');
+            update(pagePath);
+            break;
+        }
+        default: {
+            // console.log('yes that is default');
+            setPage('home-page-fragment.html', insertLocationId, 'home');
+            update('index');
+            break;
+        }
     }
 
     setTimeout(function(e) {
         equalise();
-    }, 200)
+    }, 250)
 
 }
 
 // event listeners
 window.addEventListener('load', function(e) {
-    equalise();
-    Object.keys(siteMap).forEach(function(each) {
-        getPage(siteMap[each].url, each)
-    })
+
+    if (priorPayLoad !== {}) {
+        Object.keys(siteMap).forEach(function(each) {
+            getPage(siteMap[each].url, each)
+        })
+    }
 
     var interval = setInterval(function(e) {
-        if (localStorage.length === Object.keys(siteMap).length) {
-            clearInterval(interval)
-            router(siteMap.home.url);
+        if (priorPayLoad !== {}) {
+            clearInterval(interval);
+            if (!localStorage.getItem('activePage')) {
+                router(siteMap.home.url);
+            } else {
+                router(localStorage.getItem('activePage'));
+            }
+
             setPage('navigation.html', 'navigation-insert', 'navigation');
             setPage('footer.html', 'footer-insert', 'footer');
+            equalise();
         }
-
-    }, 200)
+    }, 100)
 });
