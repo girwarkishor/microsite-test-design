@@ -1,42 +1,42 @@
 ## Design
 
-### Colors
+### colours
 
-Kotak Group has a well established color palette which consumers associate with the brand. In the digital realm, colors have certain strong meanings. Keeping with the brand's appearance, an extended palette has been made available to designers offering some leg room to stretch those creative muscles.
+Kotak Group has a well established colour palette which consumers associate with the brand. In the digital realm, colours have certain strong meanings. Keeping with the brand's appearance, an extended palette has been made available to designers offering some leg room to stretch those creative muscles.
 
 #### Guidelines
 
-These guidelines are the framework upon which we have built the system for how colors are to be used for all Kotak Securities products.
+These guidelines are the framework upon which we have built the system for how colours are to be used for all Kotak Securities products.
 
 ##### Significance over aesthetic
 
-Use of color should be with a purpose and should be supported with a rational. At no juncture, should you feel a compulsion to use color while designing products for Kotak Securities. For all general purposes, the below quote is applicable
+Use of colour should be with a purpose and should be supported with a rational. At no juncture, should you feel a compulsion to use colour while designing products for Kotak Securities. For all general purposes, the below quote is applicable
 
 > "White space is to be regarded as an active element, not a passive background."
 >
 > by Jan Tschichold
 
-##### Colors should drive attention
+##### colours should drive attention
 
-Colors help create a visual heirarchy just as typography does. Use it to drive focus. Be cautious of how you use it.
+colours help create a visual heirarchy just as typography does. Use it to drive focus. Be cautious of how you use it.
 
-#### Color Palette
+#### colour Palette
 
-We have 6 palettes of colors available for our use. Kotak brand has a warm primary palette and cool secondary palette. Using combinations of hues available in the primary palette and similarly in the secondary palette, a gradient palette has been derived. A standard greyscale palette is also available. To add a touch of freshness, there is a fresh colors palette. To communicate topics of lower importance, we have a muted palette.
+We have 6 palettes of colours available for our use. Kotak brand has a warm primary palette and cool secondary palette. Using combinations of hues available in the primary palette and similarly in the secondary palette, a gradient palette has been derived. A standard greyscale palette is also available. To add a touch of freshness, there is a fresh colours palette. To communicate topics of lower importance, we have a muted palette.
 
 ##### Shades and Tones
 
-Shades and tones of the Primary, Secondary and Fallback palettes can be used by varying opacities on a black or white backgrounds. That said, we recommend that you avoid the use of shades and insist that you use tones of colors provided in the palette. We strongly advocate against the use of blend modes for pop effects.
+Shades and tones of the Primary, Secondary and Fallback palettes can be used by varying opacities on a black or white backgrounds. That said, we recommend that you avoid the use of shades and insist that you use tones of colours provided in the palette. We strongly advocate against the use of blend modes for pop effects.
 
 #### Accessibility
 
-The average customer of Kotak Securities is 34 years old. This means a decent contrast value is needed to achieve the desired legibility. The palettes have been created in a way that if in a palette you are to select the colors of highest and lowest value, it should be possible to use one in the foreground and the other in the background. The result would be desireable.
+The average customer of Kotak Securities is 34 years old. This means a decent contrast value is needed to achieve the desired legibility. The palettes have been created in a way that if in a palette you are to select the colours of highest and lowest value, it should be possible to use one in the foreground and the other in the background. The result would be desireable.
 
 #### Resources
 
 ##### UI Kit
 
-Download the Sketch UI kit and color palettes
+Download the Sketch UI kit and colour palettes
 
 ##### SASS
 
@@ -50,7 +50,7 @@ The brand font is Frutiger. However, for the web, it is best to use a font that 
 
 #### Guidelines
 
-If text must be placed on images, it is preferrable that the text not be embedded inthe JPG/PNG. The text ought to be a layer on top on the image. Text in images isn't responsive and pixelates on compression.
+If text must be placed on images, it is preferrable that the text not be embedded in the JPG/PNG. The text ought to be a layer on top on the image. Text in images isn't responsive and pixelates on compression.
 
 #### Type Scale
 
@@ -64,7 +64,7 @@ To communicate content heirarchy, use the core typographic scale first. Once the
 
 ##### UI Kit
 
-Download the Sketch UI kit and color palettes
+Download the Sketch UI kit and colour palettes
 
 ##### SASS
 
@@ -98,7 +98,7 @@ TBD
 
 ##### UI Kit
 
-Download the Sketch UI kit and color palettes
+Download the Sketch UI kit and colour palettes
 
 ---
 
@@ -115,7 +115,7 @@ Stroke + Offset Fill icons look good and are trendy We have chosen this style as
 
 Focus on common elements to use in your icons.
 
-- The first thing to consider is definitely the color palette. Using no more than three to four colors keeps the design clean.
+- The first thing to consider is definitely the colour palette. Using no more than three to four colours keeps the design clean.
 - Don’t be afraid to repeat elements throughout your icons. Repetition help users to identify icons and associate them with an action.
 
 ##### Give them breathing space
@@ -144,7 +144,7 @@ Users are accustoemd to Font Awesome icons. In places where we don't need to gra
 
 ##### UI Kit
 
-Download the Sketch UI kit and color palettes
+Download the Sketch UI kit and colour palettes
 
 ##### SASS
 
@@ -172,7 +172,7 @@ We made room for beautiful white space by using incremental padding and margin
 
 The area in orange is called margin. It is the space outside a component. It could be the space between two components or the space between the browser edge and a component. It basically allows developers to push components around.
 
-Border is the equivalent of what design softwares call stroke. The border acts as a stroke around the component and has the abiity to have different colors and thickness.
+Border is the equivalent of what design softwares call stroke. The border acts as a stroke around the component and has the abiity to have different colours and thickness.
 
 The area marked in green is called padding. It is the space inside a component. It is the space between the content and the component edge. It basically gives breathing space to the content.
 
@@ -206,7 +206,7 @@ Each unit needs to have a minimum of 1vw of margin on every side on desktop and 
 
 #### Labelling conventions
 
-#### Color Palettes
+#### colour Palettes
 
 #### Tables
 

@@ -1,0 +1,271 @@
+{
+    0: {
+        "h1": "",
+        "h2": "",
+        "h3": "",
+        "blockquote": ""
+    },
+    1: {
+
+        0: {
+            "h1": "Design",
+        },
+        1: {
+            "h2": "Colors",
+            "p": "Kotak Group has a well established color palette which consumers associate with the brand. In the digital realm, colors have certain strong meanings. Keeping with the brand's appearance, an extended palette has been made available to designers offering some leg room to stretch those creative muscles.",
+            0: {
+                "h3": "Guidelines",
+                "p": "These guidelines are the framework upon which we have built the system for how colors are to be used for all Kotak Securities products.",
+                0: {
+                    "h4": "Significance over aesthetic",
+                    "p": "Use of color should be with a purpose and should be supported with a rational. At no juncture, should you feel a compulsion to use color while designing products for Kotak Securities. For all general purposes, the below quote is applicable",
+                    "quote": "White space is to be regarded as an active element, not a passive background.<br>
+                    by Jan Tschichold "
+                },
+                1: {
+                    "h4": "Colors should drive attention",
+                    "p": "Colors help create a visual hierarchy just as typography does. Use it to drive focus. Be cautious of how you use it.",
+                }
+            },
+            1: {
+                "h3": "Color Palette",
+                "p": "We have 6 palettes of colors available for our use. Kotak brand has a warm primary palette and cool secondary palette. Using combinations of hues available in the primary palette and similarly in the secondary palette, a gradient palette has been derived. A standard greyscale palette is also available. To add a touch of freshness, there is a fresh colors palette. To communicate topics of lower importance, we have a muted palette.",
+                0: {
+                    "h4": "Primary Color Palette",
+                    "color": {
+                        0: "R243<br>G112<br>B50<br>#F37032<br>Primary Color 1",
+                        1: "R241<br>G90<br>B34<br>#F15A22<br>Primary Color 2",
+                        2: "R239<br>G65<br>B35<br>#EF4123<br>Primary Color 3",
+                        3: "R237<br>G28<br>B36<br>#ED1C24<br>Primary Color 4",
+                        4: "R197<br>G20<br>B37<br>#C41425<br>Primary Color 5",
+                    }
+                },
+                1: {
+                    "h4": "Secondary Color Palette",
+                    "color": {
+                        0: "R179<br>G229<br>B255<br>#B3E5FF<br>Secondary Color 1",
+                        1: "R83<br>G183<br>B232<br>#53B7E8<br>Secondary Color 2",
+                        2: "R72<br>G124<br>B182<br>#487CB6<br>Secondary Color 3",
+                        3: "R11<br>G77<br>B136<br>#0B4D88<br>Secondary Color 4",
+                        4: "R0<br>G51<br>B102<br>#003366<br>Secondary Color 5",
+                    }
+                },
+                2: {
+                    "h4": "Tertiary Color Palette",
+                    "color": {
+                        0: "R250<br>G250<br>B250<br>#FAFAFA<br>Tertiary Color 1",
+                        1: "R191<br>G191<br>B191<br>#BFBFBF<br>Tertiary Color 2",
+                        2: "R141<br>G141<br>B141<br>#8D8D8D<br>Tertiary Color 3",
+                        3: "R68<br>G70<br>B74<br>#44464A<br>Tertiary Color 4",
+                        4: "R26<br>G26<br>B26<br>#1A1A1A<br>Tertiary Color 5",
+                    }
+                },
+                3: {
+                    "h4": "Fresh Color Palette",
+                    "color": {
+                        0: "R91<br>G206<br>B139<br>#5BCE8B<br>Tertiary Color 1",
+                        1: "R255<br>G211<br>B102<br>#FFD366<br>Tertiary Color 2",
+                        2: "R141<br>G141<br>B141<br>#8D8D8D<br>Tertiary Color 3",
+                        3: "R68<br>G70<br>B74<br>#44464A<br>Tertiary Color 4",
+                        4: "R26<br>G26<br>B26<br>#1A1A1A<br>Tertiary Color 5",
+                    }
+                },
+                0: {
+                    "h4": "Shades and Tones",
+                    "p": "Shades and tones of the Primary, Secondary and Fallback palettes can be used by varying opacities on a black or white backgrounds. That said, we recommend that you avoid the use of shades and insist that you use tones of colors provided in the palette. We strongly advocate against the use of blend modes for pop effects.",
+                },
+            },
+            2: {
+                "h3": "Accessibility",
+                "p": "The average customer of Kotak Securities is 34 years old.This means a decent contrast value is needed to achieve the desired legibility.The palettes have been created in a way that
+                if ina palette you are to select the colors of highest and lowest value,
+                it should be possible to use one in the foreground and the other in the background.The result would be desireable.
+                "
+            },
+            3: {
+                "h3": "Resources",
+                "p": "The average customer of Kotak Securities is 34 years old.This means a decent contrast value is needed to achieve the desired legibility.The palettes have been created in a way that if in a palette you are to select the colors of highest and lowest value, it should be possible to use one in the foreground and the other in the background.The result would be desireable.",
+                0: {
+                    "h4": "UI Kit",
+                    "p": "Download the Sketch UI kit and color palettes",
+                    "a": "link"
+                },
+                1: {
+                    "h4": "SASS",
+                    "p": "Download the SASS files zip bundle",
+                    "a": "link"
+                },
+            },
+        },
+
+        2: {
+            "h2": "Typography",
+            "p": "The brand font is Frutiger. However, for the web, it is best to use a font that Google can seed via Google Fonts. We looked for a font that is visually similar to Frutiger and is served by Google Fonts and found Roboto to be a good fit. We choose to use Light, Regular and Medium font weights. By consistently using the below set typographic styles, interfaces will look consistent and hierarchically sound.",
+            0: {
+                "h3": "Guidelines",
+                "p": "If text must be placed on images, it is preferable that the text not be embedded in the JPG/PNG. The text ought to be a layer on top on the image. Text in images isn't responsive and pixelates on compression.",
+                0: {
+                    "h4": "Type scale",
+                    "p": "The typographic scale is designed to keep the number of separate styles to the minimum that work."
+                },
+                1: {
+                    "h4": "Emphasis Styles",
+                    "p": "To communicate content hierarchy, use the core typographic scale first. Once the main hierarchy is established, if two piece of text of the same style need differentiation and you would like to emphasize one of them, a subdued or emphasized style can be used to create this variation.",
+                },
+            },
+            1: {
+                "h3": "Resources",
+                "p": "TBD",
+                0: {
+                    "h4": "UI Kit",
+                    "p": "Download the Sketch UI kit and color palettes",
+                    "a": "link"
+                },
+                1: {
+                    "h4": "SASS",
+                    "p": "Download the SASS files zip bundle",
+                    "a": "link"
+                },
+            },
+        },
+
+        3: {
+            "h2": "Illustrations & Imagery",
+            "p": "Humans use digital products This is a subjective area where drawing hard lines is always rude. We make use of the thematic — suggesting that products bring human beings together to collaborate on digital platforms. This brings a certain warmth to a space we usually deem cold and inhuman.",
+            0: {
+                "h3": "Principles",
+                "p": "TBD",
+                0: {
+                    "h4": "Be Consistent",
+                    "p": "Consistency in illustrations means considering details of a single illustration, as we as looking at the body of illustration work as a whole. Cut, copy, paste may lead to varied visual styles. We are in the process of creating a bank of creatives which can be used for most purposes."
+                },
+                1: {
+                    "h4": "Avoid the use of stock photos",
+                    "p": "The generic thoughtless use of stock photos where a person is pointing in mid air or looking at an inserted graph just doesn't cut it in the 21st century. It is not possible to draw a line on what works and what doesn't, so we chose to opt out of using stock photos altogether. This move encourages creative expression which is at the core of Kotak's belief system.",
+                },
+                2: {
+                    "h4": "When to use illustration",
+                    "p": "Illustrations should not be ornamental. It can be distracting and overwhelming. This leads attention away from the written text which usually drives the point home to the customer. Illustrations are to be used to set the mood of a section or to provide context.",
+                },
+                3: {
+                    "h4": "Characteristics of the illustration style",
+                    "p": "Illustrations should not be ornamental. It can be distracting and overwhelming. This leads attention away from the written text which usually drives the point home to the customer. Illustrations are to be used to set the mood of a section or to provide context.",
+                },
+            },
+            1: {
+                "h3": "Resources",
+                "p": "TBD",
+                0: {
+                    "h4": "UI Kit",
+                    "p": "Download the Sketch UI kit and color palettes",
+                    "a": "link"
+                },
+            },
+        },
+
+        4: {
+            "h2": "Icons",
+            "p": "Stroke + Offset Fill icons look good and are trendy We have chosen this style as it allows designers to make the page look vibrant with the shades and tones within one palette. An added accent from a complementary palette can catch the eye. So broadly, in contexts where, detail needs to be asserted, this style of icons will be used.",
+            0: {
+                "h3": "Icon principles",
+                "p": "TBD",
+                "quote": "Consistency in illustrations means considering details of a single illustration, as we as looking at the body of illustration work as a whole. Cut, copy, paste may lead to varied visual styles. We are in the process of creating a bank of creatives which can be used for most purposes.<br>Usability.gov",
+                0: {
+                    "h4": "Icons need to be consistent",
+                    "p": "Focus on common elements to use in your icons.",
+                    "ul": {
+                        0: "The first thing to consider is definitely the colour palette.Using no more than three to four colours keeps the design clean.",
+                        1: "Don’ t be afraid to repeat elements throughout your icons.Repetition help users to identify icons and associate them with an action."
+                    }
+                },
+                1: {
+                    "h4": "Give them breathing space",
+                    "p": "Using white or blank space around icons makes them clear and gives them attention. A crowded space does not allow elements to breathe or express their true selves.",
+                },
+                2: {
+                    "h4": "Communicate clearly",
+                    "p": "The icons must communicate. Their task is to transfer visual information to the user in the simplest way possible.",
+                },
+                3: {
+                    "h4": "Icons are not always self explanatory",
+                    "p": "The age group of users that accesses websites made by Kotak varies from college-goers to retirees. It is necessary to complement icons with supporting text as not everyone understands what different icons mean as they are ever evolving and not often self-explanatory.",
+                },
+            },
+            1: {
+                "h3": "Detailed icons",
+                "p": "Users are accustoemd to Font Awesome icons. In places where we don't need to grab attention but need an icon to support a heading or action, we can use font-awesome fill icons. Their standard-looking icons are clear enough for most purposes.",
+            },
+            2: {
+                "h3": "Font Awesome icons",
+                "p": "TBD",
+            },
+            3: {
+                "h3": "Resources",
+                "p": "TBD",
+                0: {
+                    "h4": "UI Kit",
+                    "p": "Download the Sketch UI kit and color palettes",
+                    "a": "link"
+                },
+                1: {
+                    "h4": "SASS",
+                    "p": "Download the SASS files zip bundle",
+                    "a": "link"
+                },
+            },
+        },
+        5: {
+            "h2": "Spacing",
+            "p": "We made room for beautiful white space by using incremental padding and margin",
+            0: {
+                "h3": "The box model",
+                "p": "The area in orange is called margin. It is the space outside a component. It could be the space between two components or the space between the browser edge and a component. It basically allows developers to push components around. <
+                br >
+                Border is the equivalent of what design softwares call stroke.The border acts as a stroke around the component and has the abiity to have different colours and thickness. <
+                br >
+                The area marked in green is called padding.It is the space inside a component.It is the space between the content and the component edge.It basically gives breathing space to the content.
+                ",
+            },
+            1: {
+                "h3": "The spacing system",
+                "p": "Using principles from relative layout, we have created 4 standard padding sizes. vw stands for Viewport Width which is the width of the screen on which your design will render in pixels. There can be components with no padding however it is not desirable. Some whitespace around content gives a good feeling to the design.",
+            },
+            2: {
+                "h3": "Spacing in code",
+                "p": "Using principles from relative layout, we have created 4 standard padding sizes. vw stands for Viewport Width which is the width of the screen on which your design will render in pixels. There can be components with no padding however it is not desirable. Some whitespace around content gives a good feeling to the design.",
+                0: {
+                    "h4": "More spacing is good",
+                    "p": "While business will insist on putting more information on a single screen, for the sake of the user, it is the duty of designers to maintain more blank space. Users exhibit scrolling behavior, so it isn't necessary to present more information in one screen.",
+                },
+                1: {
+                    "h4": "Minimum spacing",
+                    "p": "Each unit needs to have a minimum of 1vw of margin on every side on desktop and 4vw of margin in case of mobile. That makes the minimum space between two components 2vw on desktop and 8vw on mobile.",
+                },
+            },
+            3: {
+                "h2": "Optical Adjustment",
+                "p": "TBD",
+            }
+        },
+        6: {
+            "h2": "Data Visualization",
+            "p": "TBD",
+            0: {
+                "h3": "Guidelines",
+                "p": "TBD
+                ",
+            },
+            1: {
+                "h3": "Core traits",
+                "p": "TBD",
+            },
+            2: {
+                "h3": "Labelling conventions",
+                "p": "TBD",
+            },
+            3: {
+                "h2": "Tables",
+                "p": "TBD",
+            },
+        },
+    }
